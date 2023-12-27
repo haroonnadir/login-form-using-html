@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<body>
+    <main>
+        <div class="logo">
+          <img src="./images.png" alt="Logo" />
+        </div>
+        <div class="container">
+          <h2>SignIn</h2>
+          <form>
+            <div class="form-group">
+            <label for="email">Enter your email</label><br>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                id="email"
+                name="email"
+                required
+              /><br>
+              <span class="error" id="email-error"></span>
+            </div>
+            <div class="form-group">
+            <label for="Password">Enter your Password</label><br>
+              <input
+                type="password"
+                placeholder="Enter valid Password"
+                id="password"
+                name="password"
+                required
+              />
+              <span class="error" id="password-error"></span>
+            </div>
+            <div class="form-footer">
+              <button type="submit">Submit</button>
+              <button type="reset">Clear</button>
+            </div>
+          </form>
+        </div>
+      </main>
+</body>
+</html>
